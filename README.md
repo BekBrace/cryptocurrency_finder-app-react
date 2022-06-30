@@ -1,10 +1,10 @@
-Hello coders, hope you're having an awesome day.
+# Hello coders, hope you're having an awesome day.
 
 In this app, I'm going to build a cryptocurrency application that lists all the available cryptos in the market.
 
 The focus of this  tutorial will be mainly on how to fetch information from an API and then displaying it in form of a table to the end user.
 
-There are 2 main parts in this application:
+## There are 2 main parts in this application:
 
 1- First part  to search the name of the cryptocurrency you're looking for. 
 2- And second part will display all available cryptos in the market.
