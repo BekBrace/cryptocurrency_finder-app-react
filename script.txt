@@ -1,0 +1,27 @@
+Hello coders, hope you're having an awesome day.
+
+In this app, I'm going to build a cryptocurrency application that lists all the available cryptos in the market.
+
+The focus of this  tutorial will be mainly on how to fetch information from an API and then displaying it in form of a table to the end user.
+
+There are 2 main parts in this application:
+
+1- First part  to search the name of the cryptocurrency you're looking for. 
+2- And second part will display all available cryptos in the market.
+
+First we will fetch all the data from the API and store it inside a state variable and then we will map through all the data and display it in a table.
+
+So the ultimate goal here is wheneveryou search for some specific crypto, the app will be able to filter that and display only the matching results.
+
+You should be familliar with React, functional components, React Hooks (at least the useState hook) Axios and how to work with APIs, not to mention javascript ES6 callback functions, arrow function expressions, template literals for string interpolation,  also array functions are very important like filter map reduce sort.
+
+ok, let's start.
+
+create a folder [crypto-react-app] and inside it create your application
+npx create-react-app ./
+
+By the way I am going to be using a free opensource API (no auth required) called ‘CoinStats’ to fetch all the required data.
+
+Let's open App.jsx, let me clean a little bit the unnecessary lines and files also. 
+As I said, our app contains two sections, one for searching specific crypto and the other for listing all the cryptos in a table form. 
+
